@@ -15,7 +15,7 @@ public class ForceConvert {
         char c5 = 97;
         System.out.println("C5=" + c5);
         int n5 = 97;
-        // char c61 = n5;
+        // char c61 = n5;//错误
         char c6 = (char)n5;
         System.out.println("c6 = " + c6);
 
