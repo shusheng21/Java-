@@ -24,12 +24,13 @@ public class AutoConvert{
         int i1 = 20; 
         //byte b3 = i1; //错误，int类型不能直接赋值给byte类型，虽然20在byte范围内
 
-        //细节:byte、short、char他们三者可以计算，在计算时先将类型转化为int，计算结果也为int
+        //细节3byte、short、char他们三者可以计算，在计算时先将类型转化为int，计算结果也为int
         byte b3 = 10;
         short s1 = 20;
         //ort s2 = b3 + s1; //b3和s1先转化为int类型，计算结果为int类型，int->short错误
         int i2 = b3 + s1; //可以，int类型可以接收int类型的结果
         System.out.println(i2); //输出30
-
+        short s2 = 3;
+        // short s3 = s1 + s2; //s1和s2都是short类型，计算结果为int类型，不能int->short
     }
 }
