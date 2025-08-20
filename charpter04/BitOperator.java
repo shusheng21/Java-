@@ -61,7 +61,4 @@ public class BitOperator {
 //所以2^3 = 1
         System.out.println(2^3); //1
     }
-
-
-
 }
