@@ -14,9 +14,6 @@ public class Input {
         salary = mysc.nextDouble();
         System.out.println("-----------------------------");
         System.out.println("姓名\t年龄\t工资\n" + name + '\t' + age + '\t' + salary);
-  
-
-
 
     }
 }
