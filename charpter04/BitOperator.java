@@ -60,5 +60,11 @@ public class BitOperator {
 //2^3原码  00000000 00000000 00000000 00000001
 //所以2^3 = 1
         System.out.println(2^3); //1
+
+        //本章作业
+//字符串转成基本数据类型
+        String str = "123.5";
+        double d1 = Double.parseDouble(str);
+        System.out.println(d1);
     }
 }
